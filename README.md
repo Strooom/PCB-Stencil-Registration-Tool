@@ -12,15 +12,19 @@ But if you have access to **3d Printing**, it is very easy to 3DPrint this tool 
 
 In the Stencil Registration standard, the holes are set apart with a distance which varies according to the size of the PCB. So its not possible to have one tool for all possible PCBs. But with this **FreeCAD** model, it’s still very simple : the model is ‘parametric’ which means it has some parameters which you can enter, and the model will adapt to them. In this case, eg. enter the dimensions of your PCB and the model will adapt itself to a stencil registration tool of the correct dimensions.
 
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/example1%20-%2051x18mm%20pcb.png)
 
 Example 1 : registration tool for a 52 x 18 mm PCB
 
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/example2%20-%2080x60mm%20pcb.png)
 
 Example 2 : registration tool for a 80 x 60 mm PCB
 
 Parameters PCB Width, PCB Height and PCB Thickness are self-explaining.
 
 There are more parameters to control the shape, they are all found in a spreadsheet ‘Data‘ found inside the FreeCAD model. If you open the model in FreeCAD, then open the ‘Data’ spreadsheet in the model, then choose menu ‘Windows | Tile’ you will see both parameters and model and it becomes easy to experiment.
+
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/model%20parameters.png)
 
 When ready, you can export the model, eg as .step file (select the body and choose menu ‘File | Export…‘), load it into your favorite slicer and start printing.
 
