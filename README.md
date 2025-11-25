@@ -39,6 +39,10 @@ The purpose of this tool is perfect alignment. To achieve this, you need a perfe
 
 PCBs can have components on one side or both sides. With components on both sides, you also need solder paste on both sides, and you will get **two** stencils. When setting the parameter ‘singleSided’ to 0, you activate doubleSided PCB and an additional pocket is created so you can apply solder paste, flip the PCB and apply solderpaste to the other side. The tool can also be used during placement of the components. The ‘baseThickness’ parameter is set to 2 mm by default, so when your components are higher than that, you need to increase this value.
 
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/PCB%20-%20stencil%20and%20tool.JPG)
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/PCB%20aligned%20on%20tool.JPG)
+![alt text](https://github.com/Strooom/PCB-Stencil-Registration-Tool/blob/main/images/stencil%20aligned.JPG)
+
 ### **More info about Rapid Registration**
 
 [Rapid Registration - 📖 Knowledge Base / 🚀 Services and Capabilities - AISLER Creative Community](https://community.aisler.net/t/rapid-registration/42)
